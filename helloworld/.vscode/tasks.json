@@ -4,42 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "cargo build",
-            "type": "shell",
-            "command": "cargo build",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "panel": "dedicated",
-                "clear": true
-            },
-            "problemMatcher": {
-                "owner": "rust",
-                "fileLocation": [
-                    "relative",
-                    "${workspaceRoot}"
-                ],
-                "pattern": {
-                    "regexp": "^(.+):(\\d+):(\\d+):\\s+(\\d+):(\\d+)\\s+(warning|error):\\s+(.*)$",
-                    "file": 1,
-                    "line": 2,
-                    "column": 3,
-                    "endLine": 4,
-                    "endColumn": 5,
-                    "severity": 6,
-                    "message": 7
-                }
-            }
-        },
-        {
-            "label": "cargo clean",
-            "type": "shell",
-            "command": "cargo clean"
-        },
-        {
-            "label": "cargo run",
+            "label": "Rust: cargo run",
             "type": "shell",
             "command": "cargo run",
             "presentation": {
@@ -47,52 +12,6 @@
                 "clear": true
             },
             "problemMatcher": []
-        },
-        {
-            "label": "cargo test",
-            "type": "shell",
-            "command": "cargo test",
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-            "presentation": {
-                "panel": "dedicated",
-                "clear": true
-            },
-            "problemMatcher": [
-                {
-                    "owner": "rust",
-                    "fileLocation": [
-                        "relative",
-                        "${workspaceRoot}"
-                    ],
-                    "pattern": {
-                        "regexp": "^(.+):(\\d+):(\\d+):\\s+(\\d+):(\\d+)\\s+(warning|error):\\s+(.*)$",
-                        "file": 1,
-                        "line": 2,
-                        "column": 3,
-                        "endLine": 4,
-                        "endColumn": 5,
-                        "severity": 6,
-                        "message": 7
-                    }
-                },
-                {
-                    "owner": "rust",
-                    "fileLocation": [
-                        "relative",
-                        "${workspaceRoot}"
-                    ],
-                    "severity": "error",
-                    "pattern": {
-                        "regexp": "^.*panicked\\s+at\\s+'(.*)',\\s+(.*):(\\d+)$",
-                        "message": 1,
-                        "file": 2,
-                        "line": 3
-                    }
-                }
-            ]
         }
     ]
 }

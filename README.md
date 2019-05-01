@@ -1,9 +1,12 @@
 # rust-tutorial
-The Rust Programming Language Codembly Tutorial
+The Rust Programming Language Codembly Tutorial 
 
-Rust and Cargo are Mozilla trademarks – see Trademark policy: https://www.rust-lang.org/policies/media-guide
+# Build the examples
+Open example projects foder with [Visual Studio Code](https://code.visualstudio.com/)
 
-These tutorial examples are written in the standard Rust programming language and is unofficial NOT affiliated or endorsed by the Rust project or Mozilla. 
+# License
+Code example are regulated by the [MIT license](https://github.com/codembly/rust-tutorial/blob/master/LICENSE)
 
-# build the examples
-Open example projects foder with Use Visual Studio Code: https://code.visualstudio.com/
+Rust and Cargo are Mozilla trademarks – see [Trademark policy](https://www.rust-lang.org/policies/media-guide)
+
+These tutorial examples are written in the standard Rust programming language and is unofficial, **NOT** affiliated or endorsed by the Rust project or Mozilla.

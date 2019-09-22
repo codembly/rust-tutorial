@@ -1,5 +1,5 @@
 // Basic Data Types in RUST
-// Codebly - Rust Tutorial
+// Codembly - Rust Tutorial
 
 // This is the main function
 fn main() {
